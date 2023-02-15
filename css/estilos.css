@@ -1,0 +1,128 @@
+
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.tabla{
+    padding: 30px;
+    /* border: 2px solid black; */
+}
+.titulo-index{
+    background-color: rgb(14, 54, 99);   
+    padding: 10px;
+    text-align: center;
+    color: white;
+}
+.tr-titulo td{
+    padding: 10px;
+    background: #4a0b4d;
+    color: white;
+    font-weight: bold;
+}
+.tr-botones td{
+    padding: 10px;
+    border-radius: 5px;
+    background: rgb(148, 243, 206);
+}
+.boton{
+    width: 20%;
+}
+.boton button{
+    width: 100%;
+    padding: 10px;
+    background: rgb(62, 3, 117);
+    color: white;
+    font-weight: bold;
+    font-family: sans-serif;
+    border-radius: 5px;
+    border: none;
+    transition: 2s;
+}
+.boton button:hover{
+    background: rgba(62, 3, 117, 0.63);
+    text-decoration: underline;
+    transform: scale(1.05);
+}
+.detalle{
+    width: 38%;
+}
+.cont{
+    margin-bottom: 50px;
+    margin-left: 40px;
+    padding-left: 40px;
+    background: rgb(241, 235, 235);
+    padding: 15px;
+    border-radius: 10px;
+}
+.alu-titulo{
+    font-size: 20px;
+    margin-bottom: 20px;
+    background: #48e;
+    text-align: center;
+    padding: 5px;
+}
+.datos-form{
+    display: flex;
+    justify-content: space-between;
+    padding: 7px;
+    align-items: center;
+}
+input, select{
+    width: 68%;
+    padding: 5px;
+    border: 2px solid rgb(19, 163, 182);
+    outline: none;
+    border-radius: 5px;
+}
+input:focus{
+    box-shadow: 0 0 20px 0 rgb(19, 163, 182);
+}
+select:focus{
+    box-shadow: 0 0 20px 0 rgb(19, 163, 182);
+}
+.btn-enviar{
+    display: flex;
+    margin: 10px;
+    justify-content: space-between;
+}
+.btn-enviar button{
+    width: 40%;
+    padding: 7px;
+    background: rgb(39, 221, 160);
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.btn-enviar button:hover{
+    background: rgba(39, 221, 160, 0.671);
+}
+.tr-titulo2{
+    background: rgb(12, 12, 63);
+    color: white;
+    padding: 10px 10px;
+    font-weight: bold;
+}
+
+.tr-urls{
+    background: rgb(21, 71, 145);
+}
+.tr-urls td{
+    padding: 7px;
+}
+.tr-urls td a{
+    color: rgb(252, 252, 252);
+    text-decoration: none;
+    font-weight: bold;
+}
+.tr-urls td a:hover{
+    background: rgba(21, 71, 145, 0.664);
+    text-decoration: underline;
+}
+.tr-consultas th{
+    padding: 5px;
+}
+.tr-registros td{
+    padding: 5px;
+}
